@@ -3,4 +3,13 @@
 #Hint: Use the % operator to extract digits, and use the // operator to remove the extracted digit. 
 #For instance, 932 % 10 = 2 and 932 // 10 = 93 
 
+#input
+number = int(input("Enter an integer: "))
 
+#compute data
+x = number % 10
+y = number // 10
+digit = x + y
+
+#get output
+print ("{0}".format(digit))
