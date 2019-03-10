@@ -6,7 +6,9 @@ S1 = float(input("Enter an side 1: "))
 S2 = float(input("Enter an side 2: "))
 S3 = float(input("Enter an side 3: "))
 
-if S1 + S2 > S3 or S2 + S3 > S1 or S1 + S3 > S2:
-    print("Valid Triangle!")
+if S1 + S2 > S3 and S1 + S3 > S2 and S2 + S3 > S1:
+    print("valid triangle")
+    print("perimeter: ", '{}' .format(S1 + S2 + S3))
 else:
     print("Invalid Triangle!")
+
