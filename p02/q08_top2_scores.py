@@ -7,6 +7,6 @@ for i in range (0,i):
     list[score] = name
     
 print(list)
-print(list[max(list.keys())] + " got the highest score, " + max(list.keys()) + "." )
+print(list[max(list.keys())] + " got the highest score, " + max(list.keys()) )
 del list[max(list.keys())]
-print(list[max(list.keys())] + " got the second highest score, " + max(list.keys()) + ".")
+print(list[max(list.keys())] + " got the second highest score, " + max(list.keys()) )
